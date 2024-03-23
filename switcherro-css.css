@@ -1,3 +1,4 @@
+/*** SWITCHEROO - Par Monomer ------ ***/
 /* BARRE SWITCHEROO --- */
 .switcheroo {z-index: 105;transform: translateX(-100%);display: none;color: var(--primaryfont);background-color: var(--bgswitcheroo);font-size: 1.3em;opacity:0;transition: .2s ease;}
 .switcheroo[position="static"] {position: relative;}
