@@ -160,3 +160,15 @@
 #toggleSwitcheroo:checked + .button-toggleSwitcheroo::before{content:attr(data-hide-label);}
 #toggleSwitcheroo:not(:checked) + .button-toggleSwitcheroo::before{content:attr(data-show-label);}
 .switcheroo.visible {transform: translateX(30%);opacity: 1;display: block;}
+
+/* This is how you would create a custom secondary theme on top of tooltipster-noir: */
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {background: var(--primarycolor);border-style:solid;border-color:var(--accentcolor);border-width: 0 0 3px 0;border-radius: 5px;box-shadow: 0px 2px 3px rgba(0,0,0,0.5);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {color: var(--primaryfont);padding: 5px;}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-bottom .tooltipster-arrow-background{border-bottom-color:var(--accentcolor);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-left .tooltipster-arrow-background{border-left-color:var(--accentcolor);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-right .tooltipster-arrow-background{border-right-color:var(--accentcolor);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-top .tooltipster-arrow-background{border-top-color:var(--accentcolor);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-bottom .tooltipster-arrow-border{border-bottom-color:var(--accentcolor);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-left .tooltipster-arrow-border{border-left-color:var(--accentcolor);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-right .tooltipster-arrow-border{border-right-color:var(--accentcolor);}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-top .tooltipster-arrow-border{border-top-color:var(--accentcolor);}
