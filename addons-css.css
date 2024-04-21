@@ -172,3 +172,25 @@
 .tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-left .tooltipster-arrow-border{border-left-color:var(--accentcolor);}
 .tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-right .tooltipster-arrow-border{border-right-color:var(--accentcolor);}
 .tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized.tooltipster-top .tooltipster-arrow-border{border-top-color:var(--accentcolor);}
+.codebox {position: relative;}
+.hljs{display:inline-block;padding:0.5em;color:var(--primaryfont)!important;background:var(--primarycolor);}
+.hljs-comment,.hljs-template_comment,.diff .hljs-header,.hljs-javadoc{color:var(--bgswitch_scheme);font-style:italic;}
+.hljs-keyword,.css .rule .hljs-keyword,.hljs-winutils,.javascript .hljs-title,.nginx .hljs-title,.hljs-subst,.hljs-request,.hljs-status{color:var(--primaryfont);font-weight:bold;}
+.hljs-number,.hljs-hexcolor,.ruby .hljs-constant {color:#099;}
+.hljs-string,.hljs-tag .hljs-value,.hljs-phpdoc,.tex .hljs-formula{color:var(--redcolor);}
+.hljs-title,.hljs-id,.coffeescript .hljs-params,.scss .hljs-preprocessor{color:var(--darkredcolor);font-weight:bold;}
+.javascript .hljs-title,.lisp .hljs-title,.clojure .hljs-title,.hljs-subst{font-weight:normal;}
+.hljs-class .hljs-title,.haskell .hljs-type,.vhdl .hljs-literal,.tex .hljs-command{color:var(--darkgreencolor);font-weight:bold;}
+.hljs-tag,.hljs-tag .hljs-title,.hljs-rules .hljs-property,.django .hljs-tag .hljs-keyword {color:var(--bluecolor);font-weight:normal;}
+.hljs-attribute,.hljs-variable,.lisp .hljs-body {color:var(--greencolor);}
+.hljs-regexp{color:var(--darkgreencolor);}
+.hljs-symbol,.ruby .hljs-symbol .hljs-string,.lisp .hljs-keyword,.tex .hljs-special,.hljs-prompt {color:var(--goldcolor);}
+.hljs-built_in,.lisp .hljs-title,.clojure .hljs-built_in {color:#0086b3;}
+.hljs-preprocessor,.hljs-pragma,.hljs-pi,.hljs-doctype,.hljs-shebang,.hljs-cdata{color:var(--bgswitch_scheme);font-weight:bold;}
+.hljs-deletion{background:#fdd;}
+.hljs-addition{background:#dfd;}
+.diff .hljs-change{background:#0086b3;}
+.hljs-chunk{color:var(--bgswitch_scheme);}
+/* bouton "copier" */
+.copyCode {font-size: 1.2em;font-weight: normal;position: absolute;top: 5px;right: 13px;font-family: var(--secondaryfamilyfont);text-transform: uppercase;cursor: pointer;}
+.copiedCode{font-weight: bold;}
