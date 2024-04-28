@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "game-icons";
-	src: url("game-icons.eot?817af6e52c83163eb30ece54d9f7d16d?#iefix") format("embedded-opentype"),
-url("game-icons.woff?817af6e52c83163eb30ece54d9f7d16d") format("woff"),
-url("game-icons.ttf?817af6e52c83163eb30ece54d9f7d16d") format("truetype");
+	src: url("https://cdn.jsdelivr.net/gh/Brolyte/Sacremonde@main/game-icons/game-icons.eot") format("embedded-opentype"),
+url("https://cdn.jsdelivr.net/gh/Brolyte/Sacremonde@main/game-icons/game-icons.woff") format("woff"),
+url("https://cdn.jsdelivr.net/gh/Brolyte/Sacremonde@main/game-icons/game-icons.ttf") format("truetype");
 }
 
 .game-icon {
