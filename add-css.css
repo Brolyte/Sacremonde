@@ -257,7 +257,7 @@ a.viewonline-action{font-family:var(--secondaryfamilyfont);color: var(--primaryf
 .admin-img-carre:hover, .admin-img-right:hover, .admin-img-left:hover, .img-presentation:hover{transform:scale(125%);}
 .admin-img-credit{background-color: var(--primarycolor);padding: 0 5px;float: right;font-size: 0.8em;}
 .message-remarque{filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.3));background-color: var(--primarycolor);border-radius: 10px;}
-.message-remarque h4{position: relative;bottom: 20px;left: 5%;}
+.message-remarque h4{position: relative;bottom: 10px;left: 5%;}
 .message-remarque p{padding: 0 10px 10px 10px;}
 .tag-rarete{padding: 5px;border-radius:5px;filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.3));font-weight: 700;text-transform: uppercase;font-family: var(--primaryfamilyfont);}
 .sacremonde-timeline{position: relative;bottom: 10px;}
@@ -283,7 +283,6 @@ a.viewonline-action{font-family:var(--secondaryfamilyfont);color: var(--primaryf
 .copyright-message-admin.grenat, .contenu-message-admin.grenat h3{background-image:linear-gradient(var(--darkredcolor), black);box-shadow: inset 0 0 0 0 var(--darkredcolor);}
 .copyright-message-admin.grenat:hover, .contenu-message-admin.grenat h3:hover{color:var(--primaryfont)!important;background-image:linear-gradient(var(--darkredcolor), black);box-shadow: inset 1200px 0 0 0 var(--darkredcolor);}
 .entete-message-admin.rouge .color-message-admin{background-color: var(--redcolor);}
-.contenu-message-admin.rouge .message-remarque{border: 3px solid var(--redcolor);}
 .entete-message-admin.rouge h1{color: transparent !important;background-clip: text;-webkit-background-clip: text;background-image: var(--degraderouge);}
 .contenu-message-admin.rouge a{color:var(--redcolor);}
 .contenu-message-admin.rouge h4{background-color:var(--redcolor);}
