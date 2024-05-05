@@ -276,7 +276,7 @@ a.viewonline-action{font-family:var(--secondaryfamilyfont);color: var(--primaryf
 .copyright-message-admin.gold, .contenu-message-admin.gold h3{background-image: var(--degradegold);box-shadow: inset 0 0 0 0 var(--goldcolor);}
 .copyright-message-admin.gold:hover, .contenu-message-admin.gold h3:hover{color:var(--primaryfont)!important;background-image: var(--degradegold);box-shadow: inset 1200px 0 0 0 var(--goldcolor);}
 .entete-message-admin.grenat .color-message-admin{background-color: var(--darkredcolor);}
-.entete-message-admin.grenat h1{color: transparent !important;background-clip: text;-webkit-background-clip: text;background-image:linear-gradient(var(--darkredcolor), black);}
+.entete-message-admin.grenat h1{color: transparent !important;background-clip: text;-webkit-background-clip: text;background-image:linear-gradient(var(--darkredcolor) 5%, var(--bronzecolor));}
 .contenu-message-admin.grenat a{color:var(--darkredcolor);}
 .contenu-message-admin.grenat h4{background-color:var(--darkredcolor);}
 .contenu-message-admin.grenat h5{border-bottom:5px solid var(--darkredcolor);}
