@@ -234,3 +234,74 @@
 a.viewonline-action{font-family:var(--secondaryfamilyfont);color: var(--primaryfont);font-size: 1.2em;line-height:1.5em;}
 .viewonline-update{font-family:var(--tertiaryfamilyfont);font-size: 1.2em;line-height:1em;color: var(--primaryfont);}
 .viewonline-p{margin-top:10px;font-family:var(--secondaryfamilyfont);color: var(--primaryfont);text-transform:uppercase;}
+/*MESSAGES ADMIN*/
+.message-admin{filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.3));width:90%;margin:0 auto;}
+.entete-message-admin{display:flex;flex-direction:row;align-items: center;justify-content: space-between;background-color: var(--bgpapierdechire);border-radius: 10px;}
+.entete-message-admin div{margin-right:10px;}
+.entete-message-admin div h1{text-align: right;font-weight: 700;text-transform: uppercase;font-size: 2.5em;font-family: var(--primaryfamilyfont);}
+.entete-message-admin div h2, .contenu-message-admin h4, .admin-presentation-img div h1{text-align: right;font-weight: 700;text-transform: uppercase;font-size: 1.5em;font-family: var(--primaryfamilyfont);}
+.color-message-admin{width: 80px;height: 80px;border-radius: 10px 0 0 10px;}
+.contenu-message-admin{background-color: var(--bgpapierdechire);border-radius: 10px;padding:10px;}
+.contenu-message-admin a, .copyright-message-admin{font-weight: 700;text-transform: uppercase;font-size: 1.5em;font-family: var(--primaryfamilyfont);}
+.copyright-message-admin{padding:10px;border-radius:10px;text-align:center;color: transparent !important;background-clip: text;-webkit-background-clip: text;transition: color .3s ease-in-out, box-shadow .3s ease-in-out;}
+.contenu-message-admin h3{display: inline-block;padding:10px;border-radius:5px;font-weight: 700;text-transform: uppercase;font-size: 2em;font-family: var(--primaryfamilyfont);color: transparent !important;background-clip: text;-webkit-background-clip: text;transition: color .3s ease-in-out, box-shadow .3s ease-in-out;}
+.contenu-message-admin h4{display: inline-block;color:var(--primaryfont);padding:5px;border-radius:5px;}
+.contenu-message-admin h5{display: inline-block;color:var(--primaryfont);font-family: var(--secondaryfamilyfont);font-size: 1.5em;}
+.contenu-message-admin p a, .contenu-message-admin table td a{font-size: 1em;}
+.contenu-message-admin table{background-color: var(--primarycolor);border-radius: 10px;overflow:hidden;border-collapse: collapse;}
+.contenu-message-admin table th{font-weight: 700;text-transform: uppercase;font-size: 1.2em;font-family: var(--primaryfamilyfont);color:var(--primaryfont);}
+.contenu-message-admin table td{padding: 5px;}
+.admin-img-right{display: block;float: right;left: 3%;position: relative;height: 100px;width: 100%;margin-bottom:20px;background-size: 100% auto;background-repeat: no-repeat;border: 5px solid var(--secondarycolor);transition: transform .3s ease-in-out;}
+.admin-img-left{display: block;float: left;right: 3%;position: relative;height: 100px;width: 100%;margin-bottom:20px;background-size: 100% auto;background-repeat: no-repeat;border: 5px solid var(--secondarycolor);transition: transform .3s ease-in-out;}
+.admin-img-carre{display: inline-block;margin: 5px 5px 0 0;height: 200px;width: 200px;background-size: cover;background-position: center;background-repeat: no-repeat;border: 5px solid var(--secondarycolor);transition: transform .3s ease-in-out;}
+.admin-img-carre:hover, .admin-img-right:hover, .admin-img-left:hover, .img-presentation:hover{transform:scale(125%);}
+.admin-img-credit{background-color: var(--primarycolor);padding: 0 5px;float: right;font-size: 0.8em;}
+.message-remarque{filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.3));background-color: var(--primarycolor);border-radius: 10px;}
+.message-remarque h4{position: relative;bottom: 20px;left: 5%;}
+.message-remarque p{padding: 0 10px 10px 10px;}
+.tag-rarete{padding: 5px;border-radius:5px;filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.3));font-weight: 700;text-transform: uppercase;font-family: var(--primaryfamilyfont);}
+.sacremonde-timeline{position: relative;bottom: 10px;}
+.entete-message-admin.bleu .color-message-admin{background-color: var(--bluecolor);}
+.entete-message-admin.bleu h1{color: transparent !important;background-clip: text;-webkit-background-clip: text;background-image: var(--degradebleu);}
+.contenu-message-admin.bleu a{color:var(--bluecolor);}
+.contenu-message-admin.bleu h4{background-color:var(--bluecolor);}
+.contenu-message-admin.bleu h5{border-bottom:5px solid var(--bluecolor);}
+.copyright-message-admin.bleu, .contenu-message-admin.bleu h3{background-image: var(--degradebleu);box-shadow: inset 0 0 0 0 var(--bluecolor);}
+.copyright-message-admin.bleu:hover, .contenu-message-admin.bleu h3:hover{color:var(--primaryfont)!important;background-image: var(--degradebleu);box-shadow: inset 1200px 0 0 0 var(--bluecolor);}
+.entete-message-admin.gold .color-message-admin{background-color: var(--goldcolor);}
+.entete-message-admin.gold h1{color: transparent !important;background-clip: text;-webkit-background-clip: text;background-image: var(--degradegold);}
+.contenu-message-admin.gold a{color:var(--goldcolor);}
+.contenu-message-admin.gold h4{background-color:var(--goldcolor);}
+.contenu-message-admin.gold h5{border-bottom:5px solid var(--goldcolor);}
+.copyright-message-admin.gold, .contenu-message-admin.gold h3{background-image: var(--degradegold);box-shadow: inset 0 0 0 0 var(--goldcolor);}
+.copyright-message-admin.gold:hover, .contenu-message-admin.gold h3:hover{color:var(--primaryfont)!important;background-image: var(--degradegold);box-shadow: inset 1200px 0 0 0 var(--goldcolor);}
+.entete-message-admin.rouge .color-message-admin{background-color: var(--redcolor);}
+.contenu-message-admin.rouge .message-remarque{border: 3px solid var(--redcolor);}
+.entete-message-admin.rouge h1{color: transparent !important;background-clip: text;-webkit-background-clip: text;background-image: var(--degraderouge);}
+.contenu-message-admin.rouge a{color:var(--redcolor);}
+.contenu-message-admin.rouge h4{background-color:var(--redcolor);}
+.contenu-message-admin.rouge h5{border-bottom:5px solid var(--redcolor);}
+.copyright-message-admin.rouge, .contenu-message-admin.rouge h3{background-image: var(--degraderouge);box-shadow: inset 0 0 0 0 var(--redcolor);}
+.copyright-message-admin.rouge:hover, .contenu-message-admin.rouge h3:hover{color:var(--primaryfont)!important;background-image: var(--degraderouge);box-shadow: inset 1200px 0 0 0 var(--redcolor);}
+.contenu-message-admin.rouge table th{background-color: var(--redcolor);}
+.contenu-message-admin.rouge table tr{border-bottom:3px solid var(--redcolor);}
+.contenu-message-admin.rouge .img-presentation{border: 5px solid var(--redcolor);}
+.contenu-message-admin.rouge .admin-presentation-img div h1{background-color: var(--redcolor);}
+.entete-message-admin.vert .color-message-admin{background-color: var(--greencolor);}
+.contenu-message-admin.vert .message-remarque{border: 3px solid var(--greencolor);}
+.entete-message-admin.vert h1{color: transparent !important;background-clip: text;-webkit-background-clip: text;background-image: var(--degradevert);}
+.contenu-message-admin.vert a{color:var(--greencolor);}
+.contenu-message-admin.vert h4{background-color:var(--greencolor);}
+.contenu-message-admin.vert h5{border-bottom:5px solid var(--greencolor);}
+.copyright-message-admin.vert, .contenu-message-admin.vert h3{background-image: var(--degradevert);box-shadow: inset 0 0 0 0 var(--greencolor);}
+.copyright-message-admin.vert:hover, .contenu-message-admin.vert h3:hover{color:var(--primaryfont)!important;background-image: var(--degradevert);box-shadow: inset 1200px 0 0 0 var(--greencolor);}
+.contenu-message-admin.vert table th{background-color: var(--greencolor);}
+.contenu-message-admin.vert table tr{border-bottom:3px solid var(--greencolor);}
+.contenu-message-admin.vert .img-presentation{border: 5px solid var(--greencolor);}
+.contenu-message-admin.vert .admin-presentation-img div h1{background-color: var(--greencolor);}
+.sacremonde-timelime-bullet{display: flex;flex-direction: column;align-items: flex-start;}
+.sacremonde-timelime-bullet h5{padding-left:10px;}
+.sacremonde-timelime-bullet span{margin-top: 5px;text-transform: uppercase;font-size: 1em;}
+.admin-presentation-img{display:flex;flex-direction:row;}
+.admin-presentation-img p, .admin-presentation-img div h1{padding:5px;}
+.img-presentation{background-repeat: no-repeat;height: 200px;width: 200px;background-size: cover;background-position: center;transition: transform .3s ease-in-out;}
