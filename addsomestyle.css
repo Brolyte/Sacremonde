@@ -466,8 +466,6 @@ span.tag-data{display: inline-flex;flex-direction: row;flex-wrap: wrap;align-con
 .recit-journalrp.encours{border-bottom: 5px solid var(--greencolor);}.recit-journalrp.finis{border-bottom: 5px solid var(--bluecolor);}.recit-journalrp.abandons{border-bottom: 5px solid var(--redcolor);}
 #btns-journalrp{display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;justify-content: center;gap: 10px;}.btn-journalrp{color:var(--primaryfontcolor);cursor: pointer;text-transform:uppercase;family-font:var(--primaryfamilyfont);font-size:1.5em;}.btn-journalrp:hover, .btn-journalrp.active{color:var(--accentcolor);}
 
-#s-m-t-tooltip{max-width:300px;z-index: 999;margin:auto 14px 80px 12px;padding:5px;background:var(--bgblocpapierdechire);border-bottom:3px solid var(--accentcolor);border-radius:5px;font-family:var(--primaryfamilyfont);font-size:1.2em;line-height:1.2em;color: var(--primaryfont);filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.3));}
-
 @media (max-width: 800px) {
 .sacremonde-cat-title{width:100%;}.sacremonde-qeel-stats-perso, .sacremonde-qeel-stats-messages{font-size: 1.2em;}.sacremonde-qeel-stats-perso:before {top:0;}.sacremonde-qeel-welcome:before{display:none;}.sacremonde-qeel-annonces-bouton {font-size: 1.5em;}
 }
@@ -477,11 +475,6 @@ span.tag-data{display: inline-flex;flex-direction: row;flex-wrap: wrap;align-con
 @media (min-width: 1200px) and (max-width: 1500px) {  
 .sacremonde-forum-lastpost{margin-left: 30px;}
 }
-
-
-
-
-
 
 /*** SWITCHEROO - Par Monomer ------ ***/
 /* BARRE SWITCHEROO --- */
