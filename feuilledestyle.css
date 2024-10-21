@@ -100,7 +100,7 @@
 *::-webkit-scrollbar-thumb {background-color: var(--secondarycolor);}
 
 /* général */
-body{{margin-top:0 !important;background:var(--bgcolor);font-family: Kanit, sans-serif;color:var(--primaryfont);font-size:14px;}
+body{margin-top:0 !important;background:var(--bgcolor);font-family: Kanit, sans-serif;color:var(--primaryfont);font-size:14px;}
 a{text-decoration:none;}
 h2{margin:0;}
 h3, .h3, .content h2, .panel h2{border-bottom:none;}
