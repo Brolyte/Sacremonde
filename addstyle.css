@@ -38,10 +38,12 @@ span.tag-data{display: inline-flex;flex-direction: row;flex-wrap: wrap;align-con
 .annexe-relations{display: flex;flex-direction: row;flex-wrap:wrap;justify-content: center;gap: 10px;padding: 10px;}
 .data-relation{display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;border-radius: 10px;background-color: var(--bgpapierdechire);overflow: hidden;}
 .relation-presentation{width:200px;}
-.relation-presentation h1{font-size:1.5em;text-align:center;}.relation-presentation p{padding:5px;max-height:100px;overflow-y:auto;}
+.relation-presentation h1{font-size:1.5em;text-align:center;}
+.relation-presentation p{padding:5px;max-height:100px;overflow-y:auto;}
 .data-relation-img .img-presentation{height: 220px;width: 200px;}
 .fiche-journalrp{display: flex;flex-direction: row;flex-wrap: wrap;row-gap: 10px;column-gap: 5px;justify-content: center;align-items: center;align-content: flex-start;padding:10px;}
-.fiche-journalrp .recit-journalrp a{width: 100%;line-height: 1em;display: block;height: fit-content;}.fiche-journalrp .recit-journalrp a h2{width: 100%;font-family: var(--primaryfamilyfont);}
+.fiche-journalrp .recit-journalrp a{width: 100%;line-height: 1em;display: block;height: fit-content;}
+.fiche-journalrp .recit-journalrp a h2{width: 100%;font-family: var(--primaryfamilyfont);}
 .fiche-journalrp .recit-journalrp h3{border-radius: 10px 10px 0 0;font-family: var(--secondaryfamilyfont);font-size: 1em;width: 190px;text-align: right;display: block;margin: 0;}
 .fiche-journalrp .recit-journalrp.encours h3{background-color: var(--greencolor);}
 .fiche-journalrp .recit-journalrp.finis h3{background-color: var(--bluecolor);}
