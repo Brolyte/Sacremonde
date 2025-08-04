@@ -18,8 +18,7 @@ span.tag-data{display: inline-flex;flex-direction: row;flex-wrap: wrap;align-con
 .fiche-citation:after{content:'»';margin-left:10px;color:var(--accentcolor);font-size: 2.5em;}
 .fiche-physique, .fiche-caractere, .fiche-histoire, .fiche-possessions, .fiche-social, .fiche-dragon, .fiche-magie, .fiche-journalrp{background-color: var(--bgblocpapierdechire);filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.3));margin: 0 auto;border-radius: 10px;}
 .fiche-histoire .texte-histoire{max-height:450px;padding:10px;overflow-y:auto;}
-.fiche-histoire .exergue-right{display: block;left: 3%;position: relative;width: 100%;background-color: var(--bgpapierdechire);padding: 10px;border-radius: 10px;border-width: 1px;border-style:dashed;transition: transform .3s ease-in-out;}
-.fiche-histoire .exergue-right:hover{transform:scale(1.25);}
+.fiche-histoire .exergue-right{margin: 0 auto;width: 90%;background-color: var(--bgpapierdechire);padding: 10px;border-radius: 10px;border-bottom: solid 5px var(--accentcolor);}
 .fiche-illustrations{display:flex;flex-direction:row;gap:10px;align-items: center;justify-content: center;}
 .fiche-illustration-carre{border-width:5px;border-style:solid;height: 150px;width: 150px;background-size: cover;background-position: center;background-repeat: no-repeat;transition: transform .3s ease-in-out;}
 .fiche-dragon h4{font-size:3em;}
